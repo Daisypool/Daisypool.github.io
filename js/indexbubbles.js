@@ -1,11 +1,5 @@
 
 
-$('body').bubble({
-    background: {
-      0:'#e93479',
-      1:'#f9ac53'
-    },
-})
 
 $('body').bubble({
     img:[
@@ -20,10 +14,11 @@ $('body').bubble({
              },
     imgs:false,
     bubbles:false,
-    
         
     })
 
+
+    
    
         
     

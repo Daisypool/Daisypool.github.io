@@ -12,7 +12,6 @@ body{
 }
 
 
-
 nav ul{
     list-style-type: none;
     display: inline-block;
@@ -40,8 +39,13 @@ nav li{
     
 }
 
+nav{
+    z-index: 100;
+}
+
 #MainMenu{
     display: none;
+    z-index: 100;
 }
 
 #Assignmentmenu{
@@ -74,7 +78,6 @@ a{
     margin-left: 0%;
     margin-right: auto;
     cursor: pointer;
-    
 }
 
 .mainmenuani{
@@ -83,6 +86,7 @@ a{
     transition: width 0.5s ease-in;
     background: linear-gradient(#E93479, #F9AC53);
     border-radius: 15px;
+   
 }
 
 .minimenu{
@@ -133,18 +137,41 @@ h3{
 }
 
 .bubble{
-      width:100%;
-      height:100vh;
+      width: 1025px;
+      height:400px;
       z-index: -1; 
-      
+      background: radial-gradient(circle, hsla(32, 93%, 65%, 1) 0%, hsla(337, 80%, 56%, 1) 100%);
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 15px;
+      overflow: hidden;
 }
     
 .bubble_canvas{
-    min-width: 100vw;
-    min-height: 100vh;
-    position: fixed;
+    min-width: 50px;
+    min-height: 50px;
+    position: block;
     top: 0;
     left: 0;
-    z-index: -1;
-    background-color: #F9AC53;
+    z-index: 1;
+    margin-left: 0px;
+    margin-right: 300px;
+    margin-top: 0px;
+    border-radius: 15px;
+    pointer-events:none;
 }
+
+.titlewords{
+    z-index: 2;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 1025px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+

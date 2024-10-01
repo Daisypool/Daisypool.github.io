@@ -8,23 +8,24 @@ body{
 
 .Hamburger{
     position: fixed;
+    font-size: 20px;
 }
+
+
 
 nav ul{
     list-style-type: none;
-    display: block;
+    display: inline-block;
     margin-top: auto;
-    background: linear-gradient(#E93479, #F9AC53);
-    border-radius: 15px;
+    
 }
 
 input[type=checkbox]:checked ~ .mainmenuani{
-    width: 150px;
+    width: 170px;
 }
 
 nav li{
     padding-top: 0.6em;
-    font-size: 20px;
     margin-bottom: 0px;
     margin-left: -40px;
     
@@ -60,5 +61,29 @@ a{
     width: 0px;
     overflow: hidden;
     transition: width 0.5s ease-in;
+    background: linear-gradient(#E93479, #F9AC53);
+    border-radius: 15px;
 }
+
+.minimenu{
+    font-size: 16px;
+    padding-right: 10px;
+    
+}
+
+.dropdownimg{
+    background-image: url(../images/drowpdownarrow.png);
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+    float: right;
+}
+
+.inline{
+    display: inline-block;
+}
+
+ 
+
+
 

@@ -20,9 +20,14 @@ nav ul{
     
 }
 
-input[type=checkbox]:checked ~ .mainmenuani{
+#MainMenu:checked ~ .mainmenuani{
     width: 170px;
 }
+
+#Assignmentmenu:checked ~ .assigmenuani{
+    height: 300px;
+}
+
 
 nav li{
     padding-top: 0.6em;
@@ -34,6 +39,12 @@ nav li{
 #MainMenu{
     display: none;
 }
+
+#Assignmentmenu{
+    display: none;
+}
+
+
 
 a{ 
     text-decoration: none; 
@@ -68,20 +79,31 @@ a{
 .minimenu{
     font-size: 16px;
     padding-right: 10px;
-    
+    overflow: hidden;
+    white-space: nowrap;
+   
+}
+
+.assigmenuani{
+    height: 0px;
+    transition: height 0.5s ease-in;
+    overflow: hidden;
 }
 
 .dropdownimg{
-    background-image: url(../images/drowpdownarrow.png);
     height: 20px;
     width: 20px;
     background-size: 100% 100%;
-    float: right;
+    vertical-align: bottom;
+    cursor: pointer;
+    white-space: nowrap;
 }
 
-.inline{
-    display: inline-block;
-}
+
+
+
+
+
 
  
 

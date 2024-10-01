@@ -3,15 +3,62 @@
 body{
     font-family: "Shippori Mincho", serif;
     color: #300350;
-    z-index: 100;
-}
-
-.Hamburger{
-    display: flex;
     
 }
 
-ul{
-    list-style: none;
+.Hamburger{
+    position: fixed;
+}
+
+nav ul{
+    list-style-type: none;
+    display: block;
+    margin-top: auto;
+    background: linear-gradient(#E93479, #F9AC53);
+    border-radius: 15px;
+}
+
+input[type=checkbox]:checked ~ .mainmenuani{
+    width: 150px;
+}
+
+nav li{
+    padding-top: 0.6em;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: -40px;
+    
+}
+
+#MainMenu{
+    display: none;
+}
+
+a{ 
+    text-decoration: none; 
+  } 
+
+.menugrad{
+    background: linear-gradient(#F9AC53, #E93479);
+    border-radius: 15px;
+    height: 60px;
+    width: 60px;
+}
+
+.menuIcon{
+    background-image: url(../images/menu_icon.gif);
+    height: 60px;
+    width: 60px;
+    background-size: 100% 100%;
+    margin-left: 0%;
+    margin-right: auto;
+    cursor: pointer;
+    
+}
+
+.mainmenuani{
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s ease-in;
 }
 

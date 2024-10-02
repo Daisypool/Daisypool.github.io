@@ -306,7 +306,91 @@ h3{
     margin-top: 800px;
     margin-bottom: 200px;
     border-radius: 15px;
-    background-image: url(../images/placeholder.jpg);
+    background-image: url(../images/mirrorcirclesbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#Assignment2{
+    width: 1015px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 800px;
+    margin-bottom: 200px;
+    border-radius: 15px;
+    background-image: url(../images/mirrorcirclesbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#Assignment3{
+    width: 1015px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 800px;
+    margin-bottom: 200px;
+    border-radius: 15px;
+    background-image: url(../images/mirrorcirclesbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#Assignment4{
+    width: 1015px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 800px;
+    margin-bottom: 200px;
+    border-radius: 15px;
+    background-image: url(../images/mirrorcirclesbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#Assignment5{
+    width: 1015px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 800px;
+    margin-bottom: 200px;
+    border-radius: 15px;
+    background-image: url(../images/mirrorcirclesbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#Assignment6{
+    width: 1015px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 800px;
+    margin-bottom: 200px;
+    border-radius: 15px;
+    background-image: url(../images/mirrorcirclesbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#Assignment7{
+    width: 1015px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 800px;
+    margin-bottom: 200px;
+    border-radius: 15px;
+    background-image: url(../images/mirrorcirclesbg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 

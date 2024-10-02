@@ -20,6 +20,10 @@ $('body').bubble({
     $(document).ready(function(){
       $('.slider').cycle();
    });
+
+   $(document).ready(function(){
+    $('.slider2').cycle();
+ });
     
    
         

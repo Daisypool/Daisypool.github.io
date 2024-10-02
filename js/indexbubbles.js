@@ -18,6 +18,10 @@ $('body').bubble({
     })
 
 
+
+    $(document).ready(function(){
+      $('.slider').cycle();
+    })
     
    
         

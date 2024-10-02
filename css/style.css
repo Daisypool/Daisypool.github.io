@@ -3,12 +3,17 @@
 body{
     font-family: "Shippori Mincho", serif;
     color: #300350;
-    
+    background-image: url(../images/vaporwavebg.jpg);
+    background-size: cover;
+    background-position: center top;  
+    background-attachment: fixed;
 }
+
 
 .Hamburger{
     position: fixed;
     font-size: 18px;
+    z-index: 1000;
 }
 
 
@@ -62,6 +67,10 @@ a{
     color: #300350;
     text-decoration: none;
  } 
+
+ a:hover{
+    font-size: larger;
+ }
 
 .menugrad{
     background: linear-gradient(#F9AC53, #E93479);
@@ -142,6 +151,59 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.IWhead{
+    white-space: nowrap;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    letter-spacing: 1.1rem;
+    background-color:hsla(337, 80%, 56%, 0.5);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+
+}
+
+.eventbox{
+    background-color: gray;
+    width: 1015px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border-radius: 15px;
+    
+}
+
+#IW1{
+    background-image: url(../images/nightwaveplaza.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center; 
+}
+
+#IW2{
+    background-image: url(../images/placeholderbggg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center; 
+}
+
+.slider{
+    position: absolute; 
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
 
 .bubble{
       width: 1015px;

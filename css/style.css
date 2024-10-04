@@ -184,6 +184,16 @@ h2{
     margin-right: auto;
 }
 
+.videogametitle{
+    text-align: center;
+    letter-spacing: 1.1rem;
+    background-color:hsla(337, 80%, 56%, 0.5);
+    width: 350px;
+    font-size: 20px;
+}
+
+
+
 
 .IWhead{
     white-space: nowrap;
@@ -621,6 +631,53 @@ h2{
     font-size: 18px;
 }
 
+.persona5img{
+    width: 81%;
+    height: 50%;
+    
+}
 
+.genshinimg{
+    width: 81%;
+    height: 50%;
+}
+
+.brokenrealityimg{
+    width: 81%;
+    height: 50%;
+}
+
+
+.games{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+   
+}
+
+.persona5{
+    grid-column: 1;
+}
+
+.genshin{
+    grid-column: 3;
+}
+
+.broken{
+   grid-row: 1;
+   grid-column: 2;
+}
+
+.videogametitle2{
+    text-align: center;
+    letter-spacing: 1.1rem;
+    background-color:hsla(337, 80%, 56%, 0.5);
+    width: 400px;
+    font-size: 20px;
+}
 
 

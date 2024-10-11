@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-size: 14px;
+    font-family: "Montserrat", serif;
+    background: linear-gradient(#f3dfc1, 	#e0c9a6);
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    gap: 25px;
+}

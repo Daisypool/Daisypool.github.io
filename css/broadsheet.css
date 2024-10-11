@@ -5,10 +5,30 @@ body{
     font-size: 14px;
     font-family: "Montserrat", serif;
     background: linear-gradient(#f3dfc1, 	#e0c9a6);
+    color: #1a1c1a;
+}
+
+h1{
+    margin-left: 525px;
 }
 
 .articles{
     display: grid;
     grid-template-columns: 3fr 2fr 1fr;
     gap: 25px;
+    margin-bottom: 320px;
 }
+
+.box{
+   background-color: #e0c9a6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+a{
+    font-size: 14px;
+}
+

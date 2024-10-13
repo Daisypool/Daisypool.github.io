@@ -201,7 +201,7 @@ h2{
     margin-top: auto;
     margin-bottom: auto;
     letter-spacing: 1.1rem;
-    background-color:hsla(337, 80%, 56%, 0.5);
+    background-color:hsla(337, 80%, 56%, 0.8);
     width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -243,7 +243,7 @@ h2{
     margin-right: auto;
     margin-top: 200px;
     border-radius: 15px;
-    background-image: url(../images/placeholderbggg.png);
+    background-image: url(../images/teyvatinteractivemap.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 

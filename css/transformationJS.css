@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: genshinImpactFont;
+    src: url(../fonts/zh-cn.ttf);
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+#genshinContainer{
+    font-family: genshinImpactFont, sans-serif;
+    border-color: red;
+    border-style: solid;
+    width: 100%;
+}
+
+#inlinecontainer{
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+.CoverImage{
+    width: 50%;
+    height: 80%;
+}

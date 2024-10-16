@@ -1,0 +1,22 @@
+<div id="genshinContainer">
+                <h2 class="title"> Genshin Impact </h2>
+                <div class="clearfix">
+                    <div class="textleft">
+                        <h3> About </h3>
+                        <p class="abouttext">Released September 28, 2020, Genshin Impact has become a well known Open-World RPG game with
+                            over 66 million players. It has made over 5 billion dollars since release, making it one of
+                            the largest earning current games. The game follows a chosen protaganist, Aether or Lumine,
+                            as they try to find their lost sibling and learn more about the world around them. Currently
+                            there are 89 playable characters in game. Besides from the story, the game has well built
+                            combat mechanices, with each character weilding one out of seven elements. These elements
+                            react with eachother, increasing damgae, dealing debuffs, or otherwise helping the player in
+                            combat.</p>
+                    </div>
+                    <h3 class="textright"> Favorite characters </h3>
+                    <img src="images/genshincover.png" alt="Four people falling in the skey with a blue dragon behind them."
+                    class="CoverImage">
+                </div>
+
+
+
+                

@@ -1,3 +1,12 @@
+/* 
+Genshin:
+    #1d1c22  - teleport loading screen (dark) 
+    #d9c48f  - teleport words (gold)
+    #4b5366 - bacground for white text (grey) 
+    #ece4d7 - lighter text color (light gold) 
+*/
+
+
 
 @font-face {
     font-family: genshinImpactFont;
@@ -8,19 +17,66 @@
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: black;
+}
+
 #genshinContainer{
     font-family: genshinImpactFont, sans-serif;
-    border-color: red;
+    border-color: #d9c48f;
+    border-width: 2px;
     border-style: solid;
     width: 100%;
+    color: #ece4d7;
+    background-color: #1d1c22;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
 }
 
 #inlinecontainer{
-    display: flex;
+    
     scroll-behavior: smooth;
 }
 
 .CoverImage{
-    width: 50%;
-    height: 80%;
+    width: 100%;
+    height: 95%;
 }
+
+.cardgif{
+    width: 125px;
+    height: 175px;
+}
+
+.favtxt{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fav{
+    display: flex;
+    padding: 10px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.genshingrid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 25px;
+}
+
+.box{
+    padding: 5px;
+}
+
+.textcenter{
+    text-align: center;
+}
+

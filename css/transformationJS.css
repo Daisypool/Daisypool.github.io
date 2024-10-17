@@ -4,6 +4,19 @@ Genshin:
     #d9c48f  - teleport words (gold)
     #4b5366 - bacground for white text (grey) 
     #ece4d7 - lighter text color (light gold) 
+
+Persona: 
+    #fe0000 - red
+    #000000 - black 
+    #ffffff - white
+    #5e5e5e - grey  
+
+
+Broken Reality: 
+    #00e5c4 - teal UI 
+    #323032 - text color 
+    #edcff5 - light pink 
+    #e367fd - dark pink 
 */
 
 
@@ -13,8 +26,20 @@ Genshin:
     src: url(../fonts/zh-cn.ttf);
 }
 
+@font-face {
+    font-family: persona5Font;
+    src: url(../fonts/PersonifiedUXRegular.ttf);
+}
+
+@font-face {
+    font-family: brokenRealityFont;
+    src: url(../fonts/Retro\ Gaming.ttf);
+}
+
 *{
     scroll-behavior: smooth;
+    overflow: hidden;
+   /* overflow: hidden; un-comment once the sections are done to hide scrollbars  */
 }
 
 body{
@@ -26,19 +51,57 @@ body{
     border-color: #d9c48f;
     border-width: 2px;
     border-style: solid;
-    width: 100%;
+    width: 99%;
+    height: 67%;
     color: #ece4d7;
     background-color: #1d1c22;
     border-radius: 10px;
+    margin-top: 30px;
+}
+
+#personaContainer{
+    font-family: persona5Font, sans-serif;
+    border-color: #fe0000;
+    border-width: 2px;
+    border-style: solid;
+    width: 100%;
+    height: 67%;
+    color: #ffffff;
+    background-image: url(../images/Persona-5-Royal-Star-Background.jpg);
+    border-radius: 10px;
+    letter-spacing: 0.1rem;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+#brokenrealityContainer{
+    font-family: brokenRealityFont, sans-serif;
+    border-color: #00e5c4;
+    border-width: 2px;
+    border-style: solid;
+    width: 100%;
+    height: 67%;
+    color: #323032;
+    background-color: #edcff5;
+    background-image: url(../images/transparentcheck.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 30px;
 }
 
 .title{
     text-align: center;
 }
 
+
 #inlinecontainer{
     
     scroll-behavior: smooth;
+    display: grid;
+    grid-template-columns: 100% 100% 100%;
+    gap: 50px;
 }
 
 .CoverImage{
@@ -46,9 +109,25 @@ body{
     height: 95%;
 }
 
+.CoverImagebroke{
+    width: 100%;
+    height: 72%; 
+    
+}
+
 .cardgif{
     width: 125px;
     height: 175px;
+}
+
+.AOimg{
+    width: 50%;
+    height: 50%;
+}
+
+.areaimg{
+    width: 70%;
+    height: 70%; 
 }
 
 .favtxt{
@@ -75,6 +154,8 @@ body{
 .box{
     padding: 5px;
 }
+
+
 
 .textcenter{
     text-align: center;

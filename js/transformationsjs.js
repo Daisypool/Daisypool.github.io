@@ -1,7 +1,7 @@
 
 
 function scrollRight(){
-    document.getElementById('middle').scrollIntoView();
+    document.getElementById('personaContainer').scrollIntoView();
   }
 
  

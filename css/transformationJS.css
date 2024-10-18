@@ -52,7 +52,7 @@ body{
     border-width: 2px;
     border-style: solid;
     width: 99%;
-    height: 67%;
+    height: 65%;
     color: #ece4d7;
     background-color: #1d1c22;
     border-radius: 10px;
@@ -65,7 +65,7 @@ body{
     border-width: 2px;
     border-style: solid;
     width: 100%;
-    height: 67%;
+    height: 65%;
     color: #ffffff;
     background-image: url(../images/Persona-5-Royal-Star-Background.jpg);
     border-radius: 10px;
@@ -74,13 +74,103 @@ body{
     margin-top: 30px;
 }
 
+.genpersona{
+    border: none;
+    padding: 10px;
+    background: none;
+    font-family: persona5Font, sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 18px;
+    background-color: #fe0000;
+    color: #ffffff;
+    border-radius: 10px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.genpersona:hover{
+    background-color: #8e0000;
+}
+
+.brokepersona{
+    border: none;
+    padding: 10px;
+    background: none;
+    font-family: persona5Font, sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 18px;
+    background-color: #fe0000;
+    color: #ffffff;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.brokepersona:hover{
+    background-color: #8e0000;
+}
+
+.personagen{
+    border: none;
+    padding: 10px;
+    background: none;
+    font-family: genshinImpactFont, sans-serif;
+    font-size: 18px;
+    background-color: #1d1c22;
+    color: #ece4d7;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-color: #d9c48f;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.personagen:hover{
+    background-color: #0a0a0a;
+}
+
+.personabroke{
+    border: none;
+    padding: 10px;
+    background: none;
+    font-family: brokenRealityFont, sans-serif;
+    font-size: 18px;
+    background-color: #edcff5;
+    color: #323032;
+    border-radius: 10px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-color: #00e5c4;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.personabroke:hover{
+    background-color: #e99bff;
+}
+
 #brokenrealityContainer{
     font-family: brokenRealityFont, sans-serif;
     border-color: #00e5c4;
     border-width: 2px;
     border-style: solid;
     width: 100%;
-    height: 67%;
+    height: 65%;
     color: #323032;
     background-color: #edcff5;
     background-image: url(../images/transparentcheck.png);
@@ -106,12 +196,12 @@ body{
 
 .CoverImage{
     width: 100%;
-    height: 95%;
+    height: 90%;
 }
 
 .CoverImagebroke{
     width: 100%;
-    height: 72%; 
+    height: 60%; 
     
 }
 

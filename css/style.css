@@ -108,7 +108,13 @@ a{
 
 .long{
     width: 960px;
-    background-color:hsla(337, 80%, 56%, 0.7)
+    background-color:hsla(337, 80%, 56%, 0.7);
+}
+
+.aboutgames{
+    background-color:hsla(337, 80%, 56%, 0.7);
+    margin-left: 650px;
+  
 }
 
 .mainmenuani{

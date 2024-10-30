@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moblie webstie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body>
+    <h1> Stairs to Nowhere Tournament </h1>
+
+
+    <!-- rules maybe in a popup with the rules button-->
+    <div class="row justify-content-center">
+        <div class="col-4 p-4">
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                Rules
+            </button>
+        </div>
+    </div>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            <ol>
+                <li> Enter the number of people playing in the Number Of Participants selector.</li>
+                <ul>
+                    <li> Please do not reload the page. It will mess with the counters. :&rpar;</li>
+                    <li> You must set the number of participants or the website will not work as intended. </li>
+                </ul>
+                <li> Everyone starts on the first stair. </li>
+                <li> Find someone on the same stair as you and play rock paper scissors using the buttons on the
+                    website.
+                </li>
+                <li> If you win, press the won button and walk up a stair. Press the win button each time you win a game. If you lose, stay on the same stair
+                    and
+                    play
+                    again with someone on the
+                    same stair as you.</li>
+                <li> If you are the only one of your stair level, you lose. press the Last One On stair button to see your place
+                    and
+                    stay on your stair.</li>
+                <li> Continue playing steps 3-5 Until there is one person on each stair level. </li>
+                <li> The person at the hightest stair wins! :&rpar;</li>
+            </ol>
+        </div>
+    </div>
+
+
+    <select class="form-select form-select-lg mb-3" id="Participants" aria-label="Large select example">
+        <option selected>Number Of Participants</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four</option>
+        <option value="5">Five</option>
+        <option value="6">Six</option>
+        <option value="7">Seven</option>
+        <option value="8">Eight</option>
+        <option value="9">Nine</option>
+        <option value="10">Ten</option>
+        <option value="11">Eleven</option>
+        <option value="12">Twelve</option>
+        <option value="13">Thirteen</option>
+        <option value="14">Fourteen</option>
+        <option value="15">Fifteen</option>
+    </select>
+
+
+    <!-- add picutre of stairs here, pottentially with place holders??-->
+
+
+    <!-- Rock  -->
+    <div class="row justify-content-evenly p-4">
+        <div class="col-4">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rock">
+                Rock
+            </button>
+
+            <!-- Rock  modal-->
+            <div class="modal fade" id="rock" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="modal-body">
+                            <h2 class="centeredtext"> Rock </h2>
+                            <img src="images/rock.jpg" class="popupimg" alt="Rock">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Paper  -->
+        <div class="col-4">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#paper">
+            Paper
+        </button>
+
+        <!-- Paper  modal-->
+        <div class="modal fade" id="paper" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-body">
+                        <h2 class="centeredtext"> paper </h2>
+                        <img src="images/paper.png" class="popupimg" alt="Paper">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Scissors  -->
+        <div class="col-4">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#scissors">
+            Scissors
+        </button>
+
+        <!-- Scissors  modal-->
+        <div class="modal fade" id="scissors" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-body">
+                        <h2 class="centeredtext"> Scissors </h2>
+                        <img src="images/scissors.jpeg" class="popupimg" alt="Scissors">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- win button, gets you up a step -->
+
+    <div class="row justify-content-evenly p-4 gy-3">
+    <button type="button" class="btn btn-success" id="count">Won A Game </button>
+    <p class= "centeredtext">Games Won: <span id="counter"> 0 </span></p>
+    <!-- placeholdre for the win counter 
+    <h1>Counter: <span id="counter">0</span></h1>
+    
+
+
+    <!-- last one button, tells you your place? -->
+    <div class="modal fade" id="laststair" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                    <p class="placetext"> You are: </p>
+                    <p class="placetext"> <span id="particminuswin"> salkhdflkasjdhj</span> </p>
+                    <p class="placetext"> Place </p>
+                    <p class="placetext"> <span id="customtext"> N/A </span> </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- last one button  -->
+    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#laststair">
+        Last One On Stair
+    </button>
+    </div>
+
+
+
+
+
+    <!-- this is needed for the conter to work. It stores the number that is selected for participants.-->
+    <p id="selectdisplay"> AAAAA </p>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/mobileweb.js"></script>
+</body>
+
+</html>

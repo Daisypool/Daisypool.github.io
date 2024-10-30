@@ -407,3 +407,5 @@ p.mouseClicked = function(){
         p.circle(p.mouseX, p.mouseY, p.random(20, 100));
     };
 }
+
+<button type="button" class="btn btn-danger">Last on stair</button>

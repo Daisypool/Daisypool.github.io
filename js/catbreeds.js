@@ -12,6 +12,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 section.innerHTML = `
                     <h2>${item.title}</h2>
                     <img src="${item.image}" alt="${item.altText}" style="width:100%;max-width:300px;">
+                    <p> Location Origin: ${item.location} </p>
+                    <p> Coat Type: ${item.coatType} </p>
+                    <p> Coat Pattern: ${item.coatPattern} </p>
+                    <p> ${item.text} <a href = "${item.wiki}" target = "_blank"> More</a></p>
+                    
                
                 `;
                 // Appends the newly created section to the 'content' div.

@@ -1,18 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+*{
+    margin-top: 5px;
+}
 
 body{ 
     text-align: center;
-
+    font-family: "Varela Round", sans-serif;
+    background-color: #efcfd4;
+    
 }
+
+#content{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 
 section {
-    display: inline-block;
     max-width: 300px;  
-    border-color: black;
-    border-width: 1px;
-    border-style:none; 
-    padding:20px;
+    padding:10px;
     margin:10px;
-    background-color: #F5F5F5;
+    background-color: #FCF5F6;
     text-align: left;
-    box-shadow: 10px 10px lightblue;
+    box-shadow: 10px 10px 30px #e18aaa;
+    border-radius: 15px;
+    max-height: 700px;
 }
+
+.imgcontainer{ 
+  background-image: url(../images/pawww.png);
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: 3700px;
+  box-sizing: border-box;
+  animation: slide 23s linear infinite;
+}
+
+@keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -3700px -3700px; }
+}
+

@@ -7,8 +7,8 @@
         "text": "Agean cats are some of the oldest cat breeds. Common feral cats in Greece and Turkey. They are meadium sized.", 
         "location": "Greece", 
         "coatType": "Semi-long", 
-        "coatPattern": "Multi-color", 
-    }, 
+        "coatPattern": "Multi-color"
+    },
     {
         "title": "American Curl",
         "wiki": "https://en.wikipedia.org/wiki/American_Curl",
@@ -17,7 +17,7 @@
         "text": "American Curls are well known for their ears, which curl backwards. The kittens are born with straight ears that later develop the signature curl. These cats are medium sized.", 
         "location": "United States", 
         "coatType": "Semi-long", 
-        "coatPattern": "All", 
+        "coatPattern": "All" 
     }, 
     {
         "title": "Aphrodite Giant",
@@ -27,7 +27,7 @@
         "text": "Aphrodite Giant cats have thick hair. they are generally and energetic breed. they mostly live in mountain aresas, but are able to adapt to most climates.", 
         "location": "Cyprus", 
         "coatType": "All", 
-        "coatPattern": "All", 
+        "coatPattern": "All" 
     }, 
     {
         "title": "Asian",
@@ -37,7 +37,7 @@
         "text": "Asian breeds of cats are similar to the Burmese breed, just with more colors and patterns.", 
         "location": "United Kingdom", 
         "coatType": "Short", 
-        "coatPattern": "All without white and without siamese pointing", 
+        "coatPattern": "All without white and without siamese pointing" 
     }, 
     {
         "title": "Birman",
@@ -47,7 +47,7 @@
         "text": "Birman cats were almost wiped out after world war two. Birman cats have blue eyes, and longer fur.", 
         "location": "France", 
         "coatType": "Semi-long", 
-        "coatPattern": "Mitted colorpoint", 
+        "coatPattern": "Mitted colorpoint"
     }, 
     {
         "title": "Chantilly-Tiffany",
@@ -57,17 +57,17 @@
         "text": "The breed is considered Extinct. they are often a chocolate color.", 
         "location": "United States", 
         "coatType": "Long", 
-        "coatPattern": "Solid, classic tabby, spotted tabby and ticked tabby", 
+        "coatPattern": "Solid, classic tabby, spotted tabby and ticked tabby"
     }, 
     {
         "title": "European Shorthair",
         "wiki": "https://en.wikipedia.org/wiki/European_Shorthair",
-        "image": "", 
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Female_European_shorthair_in_cat_show_Helsinki_2005-07-31.JPG/                                   440px-Female_European_shorthair_in_cat_show_Helsinki_2005-07-31.JPG", 
         "altText": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Female_European_shorthair_in_cat_show_Helsinki_2005-07-31.JPG/440px-Female_European_shorthair_in_cat_show_Helsinki_2005-07-31.JPG", 
         "text": "These cats are very healthy overall, and are natural hunters.", 
         "location": "Continental Europe", 
         "coatType": "Short", 
-        "coatPattern": "All", 
+        "coatPattern": "All"
     }, 
     {
         "title": "Egyptian Mau",
@@ -77,7 +77,7 @@
         "text": "These are a very rare breed. They are extremly fast. Its back legs are longer than its front legs.", 
         "location": "Egypt", 
         "coatType": "Short", 
-        "coatPattern": "Spotted tabby", 
+        "coatPattern": "Spotted tabby" 
     }, 
     {
         "title": "Highlander",
@@ -87,7 +87,7 @@
         "text": "Highlanders originated as a cross breed. They have short tails, and curled ears.", 
         "location": "United States", 
         "coatType": "Short/long", 
-        "coatPattern": "All", 
+        "coatPattern": "All"
     }, 
     {
         "title": "Himalayan",
@@ -97,7 +97,7 @@
         "text": "Similar to persian cats, with long hair and blue eyes. their ears are smaller than normal.", 
         "location": "United States", 
         "coatType": "Long", 
-        "coatPattern": "Colorpoint", 
+        "coatPattern": "Colorpoint"
     }, 
     {
         "title": "Kinkalow",
@@ -107,7 +107,7 @@
         "text": "Kinkalows are an experimental breed, a crossbreed between Munchkin and the American Curl.", 
         "location": "United States", 
         "coatType": "Short", 
-        "coatPattern": "All", 
+        "coatPattern": "All" 
     }, 
     {
         "title": "Maine Coon",
@@ -117,7 +117,7 @@
         "text": "One of the oldest natural breeds. They are very large and friendly. They are a very popular and well-known breed.", 
         "location": "United States", 
         "coatType": "Semi-long/long", 
-        "coatPattern": "All excluding chocolate and colourpoint", 
+        "coatPattern": "All excluding chocolate and colourpoint"
     }, 
     {
         "title": "Minuet",
@@ -127,7 +127,7 @@
         "text": "These cats often have many health issues.", 
         "location": "United States", 
         "coatType": "Short/long", 
-        "coatPattern": "All", 
+        "coatPattern": "All"
     }, 
     {
         "title": "Munchkin",
@@ -137,7 +137,7 @@
         "text": "Well known for their short legs. There is alot of controversy about their health and mobility. Munchkin cats are also very small.", 
         "location": "United States", 
         "coatType": "Short/long", 
-        "coatPattern": "All", 
+        "coatPattern": "All" 
     }, 
     {
         "title": "Norwegian Forest",
@@ -147,7 +147,7 @@
         "text": "Norwegian Forest cats are intelligent and friendly. They are great with people and have alot of energy. As well as that their meows are often very high pitched.", 
         "location": "Norway", 
         "coatType": "Long", 
-        "coatPattern": "Chocolate or orange and white bicolor", 
+        "coatPattern": "Chocolate or orange and white bicolor" 
     }, 
     {
         "title": "Pixie-bob",
@@ -157,7 +157,7 @@
         "text": "These cats have black fur on their paws and tips of their ears. These cats are intellegent and highly active.", 
         "location": "United States", 
         "coatType": "Short", 
-        "coatPattern":" Spotted tabby", 
+        "coatPattern":" Spotted tabby"
     }, {
         "title": "Ragdoll",
         "wiki": "https://en.wikipedia.org/wiki/Ragdoll",
@@ -166,7 +166,7 @@
         "text": "Ragdolls are known for being very calm and floppy cats. They are one of the largest domesticated cat breeds.", 
         "location": "United States", 
         "coatType": "Long", 
-        "coatPattern": "Colorpoint, mitted, or bicolor", 
+        "coatPattern": "Colorpoint, mitted, or bicolor" 
     }, 
     {
         "title": "Savannah",
@@ -176,7 +176,7 @@
         "text": "Savannah cats are tall and slim, with distinct color markings.", 
         "location": "United States", 
         "coatType": "Short", 
-        "coatPattern": "Spotted", 
+        "coatPattern": "Spotted" 
     }, 
     {
         "title": "Scottish Fold",
@@ -186,7 +186,7 @@
         "text": "Scottish Folds are well known for their bent ears. Due to health concerns, breeding them is illegal in some places.", 
         "location": "United Kingdom", 
         "coatType": "Short/long", 
-        "coatPattern": "All", 
+        "coatPattern": "All" 
     }, 
     {
         "title": "Toybob",
@@ -196,7 +196,7 @@
         "text": "Known for their small size and kinked tails. This is an Experimental cat breed.", 
         "location": "Russia", 
         "coatType": "Short", 
-        "coatPattern": "All", 
-    }, 
+        "coatPattern": "All"
+    }
 
 ]

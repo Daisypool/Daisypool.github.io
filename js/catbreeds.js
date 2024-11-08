@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Sets the innerHTML of the section with dynamic data from the current item.
                 section.innerHTML = `
                     <h2>${item.title}</h2>
+                    <img src="${item.image}" alt="${item.altText}" style="width:100%;max-width:300px;">
                
                 `;
                 // Appends the newly created section to the 'content' div.

@@ -1,5 +1,10 @@
+//json file came from https://persona-compendium.onrender.com/personas/
+//git hub link is https://github.com/luyluish/persona-compendium?tab=readme-ov-file
+//by Luyluish
+
+
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("https://daisypool.github.io/js/cats.json")
+    fetch()
         .then((response) => response.json()) // Parses the response as JSON.
         .then((data) => {
             // Gets a reference to the element with the id 'content' in the HTML document.
@@ -10,12 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     const section = document.createElement("section");
                     // Sets the innerHTML of the section with dynamic data from the current item.
                     section.innerHTML = `
-                    <h2>${item.title}</h2>
-                    <img src="${item.image}" alt="${item.altText}" style="width:100%;max-width:300px;">
-                    <p> Location Origin: ${item.location} </p>
-                    <p> Coat Type: ${item.coatType} </p>
-                    <p> Coat Pattern: ${item.coatPattern} </p>
-                    <p> ${item.text} <a href = "${item.wiki}" target = "_blank"> More</a></p>
+                    <h2>${item.name}</h2>
+                    <img src="${item.image}" style="width:100%;max-width:300px;">
+                    <p> Disc: ${item.description} </p>
+                    <p> Arcana: ${item.arcana} </p>
                     
                
                     `;

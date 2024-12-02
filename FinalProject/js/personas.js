@@ -33,27 +33,27 @@ document.addEventListener('DOMContentLoaded', () => {
         //switches the image and the type of damgage to be added to array 
         switch (fireAttribute) {
             case "Unknown":
-                fireImg.style.backgroundImage = "url('images/weakwbg.png')";
+                fireImg.style.backgroundImage = "url('images/centeredweak.crop.png')";
                 fireAttribute = "Weak";
                 break;
             case "Weak":
-                fireImg.style.backgroundImage = "url('images/resistswbg.png')";
+                fireImg.style.backgroundImage = "url('images/centeredresistbetter.crop.png')";
                 fireAttribute = "Resists";
                 break;
             case "Resists":
-                fireImg.style.backgroundImage = "url('images/reflectswbg.png')";
+                fireImg.style.backgroundImage = "url('images/centeredreflects.crop.png')";
                 fireAttribute = "Reflects";
                 break;
             case "Reflects":
-                fireImg.style.backgroundImage = "url('images/absorbwbg.png')";
+                fireImg.style.backgroundImage = "url('images/centeredabsorb.crop.png')";
                 fireAttribute = "Absorbs";
                 break;
             case "Absorbs":
-                fireImg.style.backgroundImage = "url('images/nullwbg.png')";
+                fireImg.style.backgroundImage = "url('images/centerednull.crop.png')";
                 fireAttribute = "Nullifies";
                 break;
             case "Nullifies":
-                fireImg.style.backgroundImage = "url('images/unknownwbg.png')";
+                fireImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
                 fireAttribute = "Unknown";
                 break;
         };
@@ -71,27 +71,27 @@ document.addEventListener('DOMContentLoaded', () => {
         //switches the image and the type of damgage to be added to array 
         switch (iceAttribute) {
             case "Unknown":
-                iceImg.style.backgroundImage = "url('images/weakwbg.png')";
+                iceImg.style.backgroundImage = "url('images/centeredweak.crop.png')";
                 iceAttribute = "Weak";
                 break;
             case "Weak":
-                iceImg.style.backgroundImage = "url('images/resistswbg.png')";
+                iceImg.style.backgroundImage = "url('images/centeredresistbetter.crop.png')";
                 iceAttribute = "Resists";
                 break;
             case "Resists":
-                iceImg.style.backgroundImage = "url('images/reflectswbg.png')";
+                iceImg.style.backgroundImage = "url('images/centeredreflects.crop.png')";
                 iceAttribute = "Reflects";
                 break;
             case "Reflects":
-                iceImg.style.backgroundImage = "url('images/absorbwbg.png')";
+                iceImg.style.backgroundImage = "url('images/centeredabsorb.crop.png')";
                 iceAttribute = "Absorbs";
                 break;
             case "Absorbs":
-                iceImg.style.backgroundImage = "url('images/nullwbg.png')";
+                iceImg.style.backgroundImage = "url('images/centerednull.crop.png')";
                 iceAttribute = "Nullifies";
                 break;
             case "Nullifies":
-                iceImg.style.backgroundImage = "url('images/unknownwbg.png')";
+                iceImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
                 iceAttribute = "Unknown";
                 break;
         };
@@ -109,27 +109,27 @@ document.addEventListener('DOMContentLoaded', () => {
         //switches the image and the type of damgage to be added to array 
         switch (electricAttribute) {
             case "Unknown":
-                electricImg.style.backgroundImage = "url('images/weakwbg.png')";
+                electricImg.style.backgroundImage = "url('images/centeredweak.crop.png')";
                 electricAttribute = "Weak";
                 break;
             case "Weak":
-                electricImg.style.backgroundImage = "url('images/resistswbg.png')";
+                electricImg.style.backgroundImage = "url('images/centeredresistbetter.crop.png')";
                 electricAttribute = "Resists";
                 break;
             case "Resists":
-                electricImg.style.backgroundImage = "url('images/reflectswbg.png')";
+                electricImg.style.backgroundImage = "url('images/centeredreflects.crop.png')";
                 electricAttribute = "Reflects";
                 break;
             case "Reflects":
-                electricImg.style.backgroundImage = "url('images/absorbwbg.png')";
+                electricImg.style.backgroundImage = "url('images/centeredabsorb.crop.png')";
                 electricAttribute = "Absorbs";
                 break;
             case "Absorbs":
-                electricImg.style.backgroundImage = "url('images/nullwbg.png')";
+                electricImg.style.backgroundImage = "url('images/centerednull.crop.png')";
                 electricAttribute = "Nullifies";
                 break;
             case "Nullifies":
-                electricImg.style.backgroundImage = "url('images/unknownwbg.png')";
+                electricImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
                 electricAttribute = "Unknown";
                 break;
         };
@@ -147,27 +147,27 @@ document.addEventListener('DOMContentLoaded', () => {
         //switches the image and the type of damgage to be added to array 
         switch (windAttribute) {
             case "Unknown":
-                windImg.style.backgroundImage = "url('images/weakwbg.png')";
+                windImg.style.backgroundImage = "url('images/centeredweak.crop.png')";
                 windAttribute = "Weak";
                 break;
             case "Weak":
-                windImg.style.backgroundImage = "url('images/resistswbg.png')";
+                windImg.style.backgroundImage = "url('images/centeredresistbetter.crop.png')";
                 windAttribute = "Resists";
                 break;
             case "Resists":
-                windImg.style.backgroundImage = "url('images/reflectswbg.png')";
+                windImg.style.backgroundImage = "url('images/centeredreflects.crop.png')";
                 windAttribute = "Reflects";
                 break;
             case "Reflects":
-                windImg.style.backgroundImage = "url('images/absorbwbg.png')";
+                windImg.style.backgroundImage = "url('images/centeredabsorb.crop.png')";
                 windAttribute = "Absorbs";
                 break;
             case "Absorbs":
-                windImg.style.backgroundImage = "url('images/nullwbg.png')";
+                windImg.style.backgroundImage = "url('images/centerednull.crop.png')";
                 windAttribute = "Nullifies";
                 break;
             case "Nullifies":
-                windImg.style.backgroundImage = "url('images/unknownwbg.png')";
+                windImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
                 windAttribute = "Unknown";
                 break;
         };
@@ -185,27 +185,27 @@ document.addEventListener('DOMContentLoaded', () => {
         //switches the image and the type of damgage to be added to array 
         switch (lightAttribute) {
             case "Unknown":
-                lightImg.style.backgroundImage = "url('images/weakwbg.png')";
+                lightImg.style.backgroundImage = "url('images/centeredweak.crop.png')";
                 lightAttribute = "Weak";
                 break;
             case "Weak":
-                lightImg.style.backgroundImage = "url('images/resistswbg.png')";
+                lightImg.style.backgroundImage = "url('images/centeredresistbetter.crop.png')";
                 lightAttribute = "Resists";
                 break;
             case "Resists":
-                lightImg.style.backgroundImage = "url('images/reflectswbg.png')";
+                lightImg.style.backgroundImage = "url('images/centeredreflects.crop.png')";
                 lightAttribute = "Reflects";
                 break;
             case "Reflects":
-                lightImg.style.backgroundImage = "url('images/absorbwbg.png')";
+                lightImg.style.backgroundImage = "url('images/centeredabsorb.crop.png')";
                 lightAttribute = "Absorbs";
                 break;
             case "Absorbs":
-                lightImg.style.backgroundImage = "url('images/nullwbg.png')";
+                lightImg.style.backgroundImage = "url('images/centerednull.crop.png')";
                 lightAttribute = "Nullifies";
                 break;
             case "Nullifies":
-                lightImg.style.backgroundImage = "url('images/unknownwbg.png')";
+                lightImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
                 lightAttribute = "Unknown";
                 break;
         };
@@ -223,27 +223,27 @@ document.addEventListener('DOMContentLoaded', () => {
         //switches the image and the type of damgage to be added to array 
         switch (darkAttribute) {
             case "Unknown":
-                darkImg.style.backgroundImage = "url('images/weakwbg.png')";
+                darkImg.style.backgroundImage = "url('images/centeredweak.crop.png')";
                 darkAttribute = "Weak";
                 break;
             case "Weak":
-                darkImg.style.backgroundImage = "url('images/resistswbg.png')";
+                darkImg.style.backgroundImage = "url('images/centeredresistbetter.crop.png')";
                 darkAttribute = "Resists";
                 break;
             case "Resists":
-                darkImg.style.backgroundImage = "url('images/reflectswbg.png')";
+                darkImg.style.backgroundImage = "url('images/centeredreflects.crop.png')";
                 darkAttribute = "Reflects";
                 break;
             case "Reflects":
-                darkImg.style.backgroundImage = "url('images/absorbwbg.png')";
+                darkImg.style.backgroundImage = "url('images/centeredabsorb.crop.png')";
                 darkAttribute = "Absorbs";
                 break;
             case "Absorbs":
-                darkImg.style.backgroundImage = "url('images/nullwbg.png')";
+                darkImg.style.backgroundImage = "url('images/centerednull.crop.png')";
                 darkAttribute = "Nullifies";
                 break;
             case "Nullifies":
-                darkImg.style.backgroundImage = "url('images/unknownwbg.png')";
+                darkImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
                 darkAttribute = "Unknown";
                 break;
         };
@@ -261,27 +261,27 @@ document.addEventListener('DOMContentLoaded', () => {
         //switches the image and the type of damgage to be added to array 
         switch (slashAttribute) {
             case "Unknown":
-                slashImg.style.backgroundImage = "url('images/weakwbg.png')";
+                slashImg.style.backgroundImage = "url('images/centeredweak.crop.png')";
                 slashAttribute = "Weak";
                 break;
             case "Weak":
-                slashImg.style.backgroundImage = "url('images/resistswbg.png')";
+                slashImg.style.backgroundImage = "url('images/centeredresistbetter.crop.png')";
                 slashAttribute = "Resists";
                 break;
             case "Resists":
-                slashImg.style.backgroundImage = "url('images/reflectswbg.png')";
+                slashImg.style.backgroundImage = "url('images/centeredreflects.crop.png')";
                 slashAttribute = "Reflects";
                 break;
             case "Reflects":
-                slashImg.style.backgroundImage = "url('images/absorbwbg.png')";
+                slashImg.style.backgroundImage = "url('images/centeredabsorb.crop.png')";
                 slashAttribute = "Absorbs";
                 break;
             case "Absorbs":
-                slashImg.style.backgroundImage = "url('images/nullwbg.png')";
+                slashImg.style.backgroundImage = "url('images/centerednull.crop.png')";
                 slashAttribute = "Nullifies";
                 break;
             case "Nullifies":
-                slashImg.style.backgroundImage = "url('images/unknownwbg.png')";
+                slashImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
                 slashAttribute = "Unknown";
                 break;
         };
@@ -299,27 +299,27 @@ document.addEventListener('DOMContentLoaded', () => {
         //switches the image and the type of damgage to be added to array 
         switch (strikeAttribute) {
             case "Unknown":
-                strikeImg.style.backgroundImage = "url('images/weakwbg.png')";
+                strikeImg.style.backgroundImage = "url('images/centeredweak.crop.png')";
                 strikeAttribute = "Weak";
                 break;
             case "Weak":
-                strikeImg.style.backgroundImage = "url('images/resistswbg.png')";
+                strikeImg.style.backgroundImage = "url('images/centeredresistbetter.crop.png')";
                 strikeAttribute = "Resists";
                 break;
             case "Resists":
-                strikeImg.style.backgroundImage = "url('images/reflectswbg.png')";
+                strikeImg.style.backgroundImage = "url('images/centeredreflects.crop.png')";
                 strikeAttribute = "Reflects";
                 break;
             case "Reflects":
-                strikeImg.style.backgroundImage = "url('images/absorbwbg.png')";
+                strikeImg.style.backgroundImage = "url('images/centeredabsorb.crop.png')";
                 strikeAttribute = "Absorbs";
                 break;
             case "Absorbs":
-                strikeImg.style.backgroundImage = "url('images/nullwbg.png')";
+                strikeImg.style.backgroundImage = "url('images/centerednull.crop.png')";
                 strikeAttribute = "Nullifies";
                 break;
             case "Nullifies":
-                strikeImg.style.backgroundImage = "url('images/unknownwbg.png')";
+                strikeImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
                 strikeAttribute = "Unknown";
                 break;
         };
@@ -337,27 +337,27 @@ document.addEventListener('DOMContentLoaded', () => {
         //switches the image and the type of damgage to be added to array 
         switch (pierceAttribute) {
             case "Unknown":
-                pierceImg.style.backgroundImage = "url('images/weakwbg.png')";
+                pierceImg.style.backgroundImage = "url('images/centeredweak.crop.png')";
                 pierceAttribute = "Weak";
                 break;
             case "Weak":
-                pierceImg.style.backgroundImage = "url('images/resistswbg.png')";
+                pierceImg.style.backgroundImage = "url('images/centeredresistbetter.crop.png')";
                 pierceAttribute = "Resists";
                 break;
             case "Resists":
-                pierceImg.style.backgroundImage = "url('images/reflectswbg.png')";
+                pierceImg.style.backgroundImage = "url('images/centeredreflects.crop.png')";
                 pierceAttribute = "Reflects";
                 break;
             case "Reflects":
-                pierceImg.style.backgroundImage = "url('images/absorbwbg.png')";
+                pierceImg.style.backgroundImage = "url('images/centeredabsorb.crop.png')";
                 pierceAttribute = "Absorbs";
                 break;
             case "Absorbs":
-                pierceImg.style.backgroundImage = "url('images/nullwbg.png')";
+                pierceImg.style.backgroundImage = "url('images/centerednull.crop.png')";
                 pierceAttribute = "Nullifies";
                 break;
             case "Nullifies":
-                pierceImg.style.backgroundImage = "url('images/unknownwbg.png')";
+                pierceImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
                 pierceAttribute = "Unknown";
                 break;
         };
@@ -371,17 +371,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const contentDiv = document.getElementById("content");
 
     searchButton.addEventListener('click', () => {
-        //clears previous search 
+        //clears previous search content 
 
         contentDiv.innerHTML = "";
-         //clears arrays for another search 
-         elementsType = [];
-         unknownArray = [];
-         weakArray = [];
-         resistsArray = [];
-         reflectsArray = [];
-         absorbsArray = [];
-         nullifiesArray = [];
+        //clears arrays for another search 
+        elementsType = [];
+        unknownArray = [];
+        weakArray = [];
+        resistsArray = [];
+        reflectsArray = [];
+        absorbsArray = [];
+        nullifiesArray = [];
 
         elementsType.push({ type: "Slash", reaction: slashAttribute });
         elementsType.push({ type: "Strike", reaction: strikeAttribute });
@@ -392,9 +392,11 @@ document.addEventListener('DOMContentLoaded', () => {
         elementsType.push({ type: "Wind", reaction: windAttribute });
         elementsType.push({ type: "Light", reaction: lightAttribute });
         elementsType.push({ type: "Dark", reaction: darkAttribute });
-        // [slash,strike, pierce, fire, ice, electric, wind, light, dark]
+        // [slash, strike, pierce, fire, ice, electric, wind, light, dark]
         console.log(elementsType);
-        typeSort();
+
+        typeSort(); //sorts the elementyType into individual reaction arrays 
+
         console.log("unknown: " + unknownArray);
         console.log("weak: " + weakArray);
         console.log("resists: " + resistsArray);
@@ -410,6 +412,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function typeSort() {
     //sorts the elementsType list into weaknesses 
+    //checks the reaction of each elementAttriubte (reaction), putting the type into the right array. 
     elementsType.forEach(item => {
         if (item.reaction === "Weak") {
             weakArray.push(item.type);
@@ -450,7 +453,7 @@ function displayJson() {
 
 
             // Iterates over the filtered data and displays it
-            filteredData.forEach((item) => {
+            filteredData.forEach((item, index) => {
                 // Creates a new 'section' element
                 const section = document.createElement("section");
 
@@ -458,20 +461,25 @@ function displayJson() {
                 section.innerHTML = `
                         <h2>${item.name}</h2>
                         <img src="${item.image}" style="width:100%;max-width:300px;">
-                        <p> Disc: ${item.description} </p>
-                        <p> Arcana: ${item.arcana} </p>
-                        <p> Weaknesses: ${item.weak.join(", ")}</p>
-                        <p> Resistances: ${item.resists.join(", ")}</p>
-                        <p> Reflects: ${item.reflects.join(", ")}</p>
-                        <p> Absorbs: ${item.absorbs.join(", ")}</p>
-                        <p> Nullifies: ${item.nullifies.join(", ")}</p>
+                       
                     `;
+
+                section.addEventListener("click", () => {
+                    // when clicked, keeps data in storage
+                    localStorage.setItem("selectedItem", JSON.stringify(item));
+                    // goes to details page in new tab :) 
+                   window.open("details.html", "_blank");
+                });
+
+                //adds class to section to alternate colors of the bg    
+                section.classList.add(index % 2 === 0 ? "bg-light" : "bg-dark");
 
                 // Appends the newly created section to the 'content' div
                 contentDiv.appendChild(section);
             });
 
             if (filteredData.length === 0) {
+                // if nothing matches the arrays then this shows 
                 contentDiv.innerHTML = "<p>No personas match the criteria. :( </p>";
             }
         })

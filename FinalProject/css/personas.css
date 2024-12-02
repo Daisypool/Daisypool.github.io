@@ -1,64 +1,233 @@
+@import url("https://db.onlinewebfonts.com/c/a1064a651347180bcb010c3673903bff?family=D");
 
 
-#fireoptionsimg{
-    background-image: url(../images/unknownwbg.png);
-    background-size: cover;
-    width: 100px;
-    height: 100px;
+
+
+body{ 
+    font-family: "D", sans-serif;
+    font-size: 20px;
 }
 
+
+
+.blueinteractiveimg{
+    width: 1319px;
+    height: 835px;
+}
+
+#fireoptionsimg{
+    position: absolute;
+    display: flex; /* not sure i need this*/
+    align-items: center;
+    justify-content: center;
+    top: 409px;
+    left: 551px;
+    background-image: url(../images/centeredunknown.crop.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 108px;
+   
+}
+
+#firebutton{
+    width: 90px;
+    height: 112px;
+    opacity: 0;
+    /*opacity: 0 (unhide when the button is fine) */
+}
+
+/* height: 25px (less for higher, more for lower )
+   width: 132px (less for left, more for right) 
+*/
+
 #iceoptionsimg{
-    background-image: url(../images/unknownwbg.png);
+    background-image: url(../images/centeredunknown.crop.png);
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 390px;
+    left: 650px;
+   
+}
+
+#icebutton{ 
+    width: 90px;
+    height: 112px;
+    opacity: 0;
 }
 
 #electricoptionsimg{
-    background-image: url(../images/unknownwbg.png);
+    background-image: url(../images/centeredunknown.crop.png);
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 371px;
+    left: 749px;
+    
+}
+
+#electricbutton{ 
+    width: 90px;
+    height: 112px;
+    opacity: 0;
 }
 
 #windoptionsimg{
-    background-image: url(../images/unknownwbg.png);
+    background-image: url(../images/centeredunknown.crop.png);
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 352px;
+    left: 848px;
+    
+}
+
+#windbutton{ 
+    width: 90px;
+    height: 112px;
+    opacity: 0;
 }
 
 #lightoptionsimg{
-    background-image: url(../images/unknownwbg.png);
+    background-image: url(../images/centeredunknown.crop.png);
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 334px;
+    left: 947px;
+   
+}
+
+#lightbutton{ 
+    width: 90px;
+    height: 112px;
+    opacity: 0;
 }
 
 #darkoptionsimg{
-    background-image: url(../images/unknownwbg.png);
+    background-image: url(../images/centeredunknown.crop.png);
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 315px;
+    left: 1046px;
+   
+}
+
+#darkbutton{ 
+    width: 90px;
+    height: 112px;
+    opacity: 0;
 }
 
 #slashoptionsimg{
-    background-image: url(../images/unknownwbg.png);
+    background-image: url(../images/centeredunknown.crop.png);
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 471px;
+    left: 222px;
+    
+}
+
+#slashbutton{ 
+    width: 90px;
+    height: 112px;
+    opacity: 0;
 }
 
 #strikeoptionsimg{
-    background-image: url(../images/unknownwbg.png);
+    background-image: url(../images/centeredunknown.crop.png);
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 452px;
+    left: 321px;
+    
+}
+
+#strikebutton{ 
+    width: 90px;
+    height: 112px;
+    opacity: 0;
 }
 
 #pierceoptionsimg{
-    background-image: url(../images/unknownwbg.png);
+    background-image: url(../images/centeredunknown.crop.png);
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 433px;
+    left: 420px;
+    
+}
+
+#piercebutton{ 
+    width: 90px;
+    height: 112px;
+    opacity: 0;
+}
+
+#content{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+section{
+    max-width: 500px;  
+    padding:10px;
+    margin:10px;
+    text-align: left;
+   /* box-shadow: 10px 10px 30px #e18aaa; */
+    border-radius: 15px;
+    /* max-height: 700px; */ 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+section:hover{
+    box-shadow: 0px 0px 30px #00fff5;
+    transform: scale(1.05);
+}
+
+
+.bg-light {
+    background-color: #4621C8;
+    
+}
+
+.bg-dark {
+    background-color: #2D0F88; 
 }

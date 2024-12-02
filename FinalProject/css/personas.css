@@ -1,14 +1,56 @@
 @import url("https://db.onlinewebfonts.com/c/a1064a651347180bcb010c3673903bff?family=D");
 
 
-
+@font-face {
+    font-family: personabold;
+    src: url(../AktivGrotesk-Bold.ttf);
+}
 
 body{ 
     font-family: "D", sans-serif;
     font-size: 20px;
+    background-image: url(../images/bubblesgif.gif);
+    background-size: cover;
+    background-position: center top;  
+    background-attachment: fixed;
+}
+
+.title{ 
+    font-family: personabold, sans-serif;
+    position: absolute;
+    color: #00fff5;
+    text-shadow: #0ed2fd 2px 5px 5px;
+    top: 150px;
+    transform: rotate(-11deg);
+    font-size: 100px;
+}
+
+#searchbutton{
+    font-family: personabold, sans-serif;
+    font-size: 45px;
+    padding-right: 150px;
+    transform: rotate(-15deg);
+    position: absolute;
+    color: #030a87;
+    width: 441px;
+    height: 284px;
+    top: 490px;
+    left: 940px;
+    background-image: url(../images/tributtonwshadow.png);
+    background-size: cover;
+    transition: transform 0.3s ease;
+
+    background-color: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
 }
 
 
+#searchbutton:hover{
+	transform: translateX(10px) rotate(-15deg); 
+    cursor: pointer;
+}
 
 .blueinteractiveimg{
     width: 1319px;
@@ -21,7 +63,7 @@ body{
     align-items: center;
     justify-content: center;
     top: 409px;
-    left: 551px;
+    left: 556px;
     background-image: url(../images/centeredunknown.crop.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -51,7 +93,7 @@ body{
     align-items: center;
     justify-content: center;
     top: 390px;
-    left: 650px;
+    left: 655px;
    
 }
 
@@ -71,7 +113,7 @@ body{
     align-items: center;
     justify-content: center;
     top: 371px;
-    left: 749px;
+    left: 754px;
     
 }
 
@@ -91,7 +133,7 @@ body{
     align-items: center;
     justify-content: center;
     top: 352px;
-    left: 848px;
+    left: 853px;
     
 }
 
@@ -111,7 +153,7 @@ body{
     align-items: center;
     justify-content: center;
     top: 334px;
-    left: 947px;
+    left: 952px;
    
 }
 
@@ -131,7 +173,7 @@ body{
     align-items: center;
     justify-content: center;
     top: 315px;
-    left: 1046px;
+    left: 1053px;
    
 }
 
@@ -151,7 +193,7 @@ body{
     align-items: center;
     justify-content: center;
     top: 471px;
-    left: 222px;
+    left: 227px;
     
 }
 
@@ -171,7 +213,7 @@ body{
     align-items: center;
     justify-content: center;
     top: 452px;
-    left: 321px;
+    left: 326px;
     
 }
 
@@ -191,7 +233,7 @@ body{
     align-items: center;
     justify-content: center;
     top: 433px;
-    left: 420px;
+    left: 425px;
     
 }
 
@@ -220,14 +262,15 @@ section{
 section:hover{
     box-shadow: 0px 0px 30px #00fff5;
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 
 .bg-light {
-    background-color: #4621C8;
+    background-color: rgba(70, 33, 200, 0.8);
     
 }
 
 .bg-dark {
-    background-color: #2D0F88; 
+    background-color: rgba(45, 15, 136, 0.8); 
 }

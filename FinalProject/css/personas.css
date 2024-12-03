@@ -23,6 +23,7 @@ body{
     top: 150px;
     transform: rotate(-11deg);
     font-size: 100px;
+    text-wrap: nowrap;
 }
 
 #searchbutton{
@@ -52,6 +53,34 @@ body{
     cursor: pointer;
 }
 
+#resetbutton{
+    font-family: personabold, sans-serif;
+    font-size: 45px;
+    padding-left: 75px;
+    transform: rotate(-15deg);
+    position: absolute;
+    color: #030a87;
+    width: 220px;
+    height: 142px;
+    /*left: 490px;
+    top: 603px;*/
+    left: 50px;
+    top: 665px;
+    background-image: url(../images/tributtonwshadow.crop.png);
+    background-size: cover;
+    transition: transform 0.3s ease;
+
+    background-color: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+#resetbutton:hover{
+	transform: translateX(-10px) rotate(-15deg); 
+    cursor: pointer;
+}
+
 .blueinteractiveimg{
     width: 1319px;
     height: 835px;
@@ -69,13 +98,20 @@ body{
     background-repeat: no-repeat;
     width: 108px;
     height: 108px;
-   
+    transition: height 0.3s ease, width 0.3s ease;
 }
+
+#fireoptionsimg:hover{
+    height: 120px;
+    width: 120px;
+}
+
 
 #firebutton{
     width: 90px;
     height: 112px;
     opacity: 0;
+    cursor: pointer;
     /*opacity: 0 (unhide when the button is fine) */
 }
 
@@ -94,13 +130,20 @@ body{
     justify-content: center;
     top: 390px;
     left: 655px;
-   
+    transition: height 0.3s ease, width 0.3s ease;
 }
+
+#iceoptionsimg:hover{
+    height: 120px;
+    width: 120px;
+}
+
 
 #icebutton{ 
     width: 90px;
     height: 112px;
     opacity: 0;
+    cursor: pointer;
 }
 
 #electricoptionsimg{
@@ -114,13 +157,20 @@ body{
     justify-content: center;
     top: 371px;
     left: 754px;
-    
+    transition: height 0.3s ease, width 0.3s ease;
 }
+
+#electricoptionsimg:hover{
+    height: 120px;
+    width: 120px;
+}
+
 
 #electricbutton{ 
     width: 90px;
     height: 112px;
     opacity: 0;
+    cursor: pointer;
 }
 
 #windoptionsimg{
@@ -134,13 +184,19 @@ body{
     justify-content: center;
     top: 352px;
     left: 853px;
-    
+    transition: height 0.3s ease, width 0.3s ease;
+}
+
+#windoptionsimg:hover{
+    height: 120px;
+    width: 120px;
 }
 
 #windbutton{ 
     width: 90px;
     height: 112px;
     opacity: 0;
+    cursor: pointer;
 }
 
 #lightoptionsimg{
@@ -154,13 +210,19 @@ body{
     justify-content: center;
     top: 334px;
     left: 952px;
-   
+    transition: height 0.3s ease, width 0.3s ease;
+}
+
+#lightoptionsimg:hover{
+    height: 120px;
+    width: 120px;
 }
 
 #lightbutton{ 
     width: 90px;
     height: 112px;
     opacity: 0;
+    cursor: pointer;
 }
 
 #darkoptionsimg{
@@ -174,13 +236,20 @@ body{
     justify-content: center;
     top: 315px;
     left: 1053px;
-   
+    transition: height 0.3s ease, width 0.3s ease;
 }
+
+#darkoptionsimg:hover{
+    height: 120px;
+    width: 120px;
+}
+
 
 #darkbutton{ 
     width: 90px;
     height: 112px;
     opacity: 0;
+    cursor: pointer;
 }
 
 #slashoptionsimg{
@@ -194,13 +263,20 @@ body{
     justify-content: center;
     top: 471px;
     left: 227px;
-    
+    transition: height 0.3s ease, width 0.3s ease;
 }
+
+#slashoptionsimg:hover{
+    height: 120px;
+    width: 120px;
+}
+
 
 #slashbutton{ 
     width: 90px;
     height: 112px;
     opacity: 0;
+    cursor: pointer;
 }
 
 #strikeoptionsimg{
@@ -214,13 +290,20 @@ body{
     justify-content: center;
     top: 452px;
     left: 326px;
-    
+    transition: height 0.3s ease, width 0.3s ease;
 }
+
+#strikeoptionsimg:hover{
+    height: 120px;
+    width: 120px;
+}
+
 
 #strikebutton{ 
     width: 90px;
     height: 112px;
     opacity: 0;
+    cursor: pointer;
 }
 
 #pierceoptionsimg{
@@ -234,13 +317,20 @@ body{
     justify-content: center;
     top: 433px;
     left: 425px;
-    
+    transition: height 0.3s ease, width 0.3s ease;
 }
+
+#pierceoptionsimg:hover{
+    height: 120px;
+    width: 120px;
+}
+
 
 #piercebutton{ 
     width: 90px;
     height: 112px;
     opacity: 0;
+    cursor: pointer;
 }
 
 #content{ 
@@ -252,11 +342,18 @@ section{
     max-width: 500px;  
     padding:10px;
     margin:10px;
-    text-align: left;
    /* box-shadow: 10px 10px 30px #e18aaa; */
     border-radius: 15px;
     /* max-height: 700px; */ 
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    opacity: 0; 
+    transform: translateY(60px); 
+    transition: opacity 0.8s ease, transform 0.8s ease; 
+}
+
+section.scroll-in {
+    opacity: 1; 
+    transform: translateY(0); 
 }
 
 section:hover{
@@ -274,3 +371,68 @@ section:hover{
 .bg-dark {
     background-color: rgba(45, 15, 136, 0.8); 
 }
+
+.sectionhead{
+    color: white;
+    text-align: center;
+}
+
+.halfcircle {
+    width: 280px;
+    height: 100px;
+    padding-bottom: 5px; 
+    background-color:  rgba(45, 15, 136, 0);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 10px solid #00fff5;
+    border-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.personacardimg{
+    width:100%;
+    max-width:300px;
+    padding-top: 10px;
+}
+
+.nomatch{
+    color: white;
+    padding-left: 400px;
+    text-wrap: nowrap;
+    font-size: 30px;
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    transform: rotate(-11deg);
+}
+
+.navlink{
+    font-family: personabold, sans-serif;
+    color: white;
+    text-shadow: #00fff5 2px 3px 3px;
+    font-size: 30px;
+    text-wrap: nowrap;
+    text-align: center;
+    text-decoration: none;
+   
+    margin-left: 20px;
+    padding: 5px;
+}
+
+a{
+    box-shadow: inset 0 0 0 0 #00fff5;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out, text-shadow 0.3s ease-in-out;
+  }
+
+  a:hover {
+    box-shadow: inset 100px 0px 0px #00fff5;
+   /* color: #030a87; */ 
+    text-shadow: #030a87 2px 3px 3px;
+  }
+  

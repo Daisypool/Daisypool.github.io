@@ -1,0 +1,141 @@
+@import url("https://db.onlinewebfonts.com/c/a1064a651347180bcb010c3673903bff?family=D");
+
+
+@font-face {
+    font-family: personabold;
+    src: url(../AktivGrotesk-Bold.ttf);
+}
+
+body{ 
+    font-family: "D", sans-serif;
+    font-size: 20px;
+    background-image: url(../images/bubblesgif.gif);
+    background-size: cover;
+    background-position: center top;  
+    background-attachment: fixed;
+}
+
+.name{
+    font-family: personabold, sans-serif;
+    color: white;
+    text-shadow: #030a87 2px 5px 5px;
+    font-size: 100px;
+    text-wrap: nowrap;
+    text-align: center;
+}
+
+.personaimg{
+    width:100%;
+    max-width:600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    color: white;
+}
+
+.catagoryhead{
+    color: white;
+    text-decoration: underline #00fff5;
+    font-size: 35px;
+    text-align: center;
+}
+
+.elementstext{
+    text-align: center;
+    color: white;
+    margin-left: 20px;
+}
+
+.desc{
+    text-align: center;
+}
+
+.arcana{
+    text-align: center;
+    font-size: 25px;
+}
+
+.arcanaimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.weak{
+    text-align: center;
+}
+
+.weakness{
+    display: flex;
+    justify-content: center;
+}
+
+.resist{
+    text-align: center;
+}
+
+.reflect{
+    text-align: center;
+}
+
+.absorb{
+    text-align: center;
+}
+
+.null{
+    text-align: center;
+}
+
+.blue{
+    background-color: rgba(70, 33, 200, 0.8);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.navlink{
+    font-family: personabold, sans-serif;
+    color: white;
+    text-shadow: #030a87 2px 3px 3px;
+    font-size: 30px;
+    text-wrap: nowrap;
+    text-align: center;
+    text-decoration: none;
+   
+    margin-left: 20px;
+    padding: 5px;
+}
+
+a{
+    box-shadow: inset 0 0 0 0 #00fff5;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out, text-shadow 0.3s ease-in-out;
+  }
+
+  a:hover {
+    box-shadow: inset 100px 0px 0px #030a87;
+   /* color: #030a87; */ 
+    text-shadow: #00fff5 2px 3px 3px;
+  }
+
+ .reactiongrid{
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 2;
+ }
+
+ .weaknessdiv{
+    grid-column: 1;
+    grid-row: 1;
+ }
+
+ .resistancediv{
+    grid-column: 3;
+    grid-row: 1;
+ }
+
+ .reflectdiv{
+    grid-column: 5;
+    grid-row: 1;
+ }

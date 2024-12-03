@@ -25,11 +25,10 @@ var nullifiesArray = [];
 //change the fire button attribute and image 
 document.addEventListener('DOMContentLoaded', () => {
     const fireButton = document.getElementById('firebutton'); //gets the element once page is loaded
-    const fireImg = document.getElementById('fireoptionsimg'); //gets the image displayed for fire
 
     fireButton.addEventListener('click', () => {
         console.log("pressed fire button"); //what to do when clicked 
-
+        const fireImg = document.getElementById('fireoptionsimg'); //gets the image displayed for fire
         //switches the image and the type of damgage to be added to array 
         switch (fireAttribute) {
             case "Unknown":
@@ -57,13 +56,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 fireAttribute = "Unknown";
                 break;
         };
+
     });
 });
+
 
 //change the ice button attribute and image 
 document.addEventListener('DOMContentLoaded', () => {
     const iceButton = document.getElementById('icebutton'); //gets the element once page is loaded
-    const iceImg = document.getElementById('iceoptionsimg'); //gets the image displayed for fire
+    const iceImg = document.getElementById('iceoptionsimg'); //gets the image displayed for ice
 
     iceButton.addEventListener('click', () => {
         console.log("pressed ice button"); //what to do when clicked 
@@ -101,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //electric button change 
 document.addEventListener('DOMContentLoaded', () => {
     const electricButton = document.getElementById('electricbutton'); //gets the element once page is loaded
-    const electricImg = document.getElementById('electricoptionsimg'); //gets the image displayed for fire
+    const electricImg = document.getElementById('electricoptionsimg'); //gets the image displayed for electric
 
     electricButton.addEventListener('click', () => {
         console.log("pressed electric button"); //what to do when clicked 
@@ -139,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //change the wind button attribute and image 
 document.addEventListener('DOMContentLoaded', () => {
     const windButton = document.getElementById('windbutton'); //gets the element once page is loaded
-    const windImg = document.getElementById('windoptionsimg'); //gets the image displayed for fire
+    const windImg = document.getElementById('windoptionsimg'); //gets the image displayed for wind
 
     windButton.addEventListener('click', () => {
         console.log("pressed wind button"); //what to do when clicked 
@@ -177,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //change the light button and image 
 document.addEventListener('DOMContentLoaded', () => {
     const lightButton = document.getElementById('lightbutton'); //gets the element once page is loaded
-    const lightImg = document.getElementById('lightoptionsimg'); //gets the image displayed for fire
+    const lightImg = document.getElementById('lightoptionsimg'); //gets the image displayed for light
 
     lightButton.addEventListener('click', () => {
         console.log("pressed light button"); //what to do when clicked 
@@ -215,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //change the dark button attribute and image 
 document.addEventListener('DOMContentLoaded', () => {
     const darkButton = document.getElementById('darkbutton'); //gets the element once page is loaded
-    const darkImg = document.getElementById('darkoptionsimg'); //gets the image displayed for fire
+    const darkImg = document.getElementById('darkoptionsimg'); //gets the image displayed for dark
 
     darkButton.addEventListener('click', () => {
         console.log("pressed dark button"); //what to do when clicked 
@@ -253,7 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //change the slash button attribute and image 
 document.addEventListener('DOMContentLoaded', () => {
     const slashButton = document.getElementById('slashbutton'); //gets the element once page is loaded
-    const slashImg = document.getElementById('slashoptionsimg'); //gets the image displayed for fire
+    const slashImg = document.getElementById('slashoptionsimg'); //gets the image displayed for slash
 
     slashButton.addEventListener('click', () => {
         console.log("pressed slash button"); //what to do when clicked 
@@ -291,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //change the strike button attribute and image 
 document.addEventListener('DOMContentLoaded', () => {
     const strikeButton = document.getElementById('strikebutton'); //gets the element once page is loaded
-    const strikeImg = document.getElementById('strikeoptionsimg'); //gets the image displayed for fire
+    const strikeImg = document.getElementById('strikeoptionsimg'); //gets the image displayed for strike
 
     strikeButton.addEventListener('click', () => {
         console.log("pressed strike button"); //what to do when clicked 
@@ -329,7 +330,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //change the pierce button attribute and image 
 document.addEventListener('DOMContentLoaded', () => {
     const pierceButton = document.getElementById('piercebutton'); //gets the element once page is loaded
-    const pierceImg = document.getElementById('pierceoptionsimg'); //gets the image displayed for fire
+    const pierceImg = document.getElementById('pierceoptionsimg'); //gets the image displayed for pierce
 
     pierceButton.addEventListener('click', () => {
         console.log("pressed pierce button"); //what to do when clicked 
@@ -361,6 +362,64 @@ document.addEventListener('DOMContentLoaded', () => {
                 pierceAttribute = "Unknown";
                 break;
         };
+    });
+});
+
+//reset button (resets the images and atributes to unknown for easier searching)
+document.addEventListener('DOMContentLoaded', () => {
+    const resetButton = document.getElementById('resetbutton');
+    const pierceImg = document.getElementById('pierceoptionsimg'); //gets the image displayed for pierce
+    const strikeImg = document.getElementById('strikeoptionsimg'); //gets the image displayed for strike
+    const slashImg = document.getElementById('slashoptionsimg'); //gets the image displayed for slash
+    const darkImg = document.getElementById('darkoptionsimg'); //gets the image displayed for dark
+    const lightImg = document.getElementById('lightoptionsimg'); //gets the image displayed for light
+    const windImg = document.getElementById('windoptionsimg'); //gets the image displayed for wind
+    const electricImg = document.getElementById('electricoptionsimg'); //gets the image displayed for electric
+    const iceImg = document.getElementById('iceoptionsimg'); //gets the image displayed for ice
+    const fireImg = document.getElementById('fireoptionsimg'); //gets the image displayed for fire
+
+    const contentDiv = document.getElementById("content"); //gets content div
+
+
+    resetButton.addEventListener('click', () => {
+        pierceImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
+        pierceAttribute = "Unknown";
+
+        strikeImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
+        strikeAttribute = "Unknown";
+
+        slashImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
+        slashAttribute = "Unknown";
+
+        darkImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
+        darkAttribute = "Unknown";
+
+        lightImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
+        lightAttribute = "Unknown";
+
+        windImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
+        windAttribute = "Unknown";
+
+        electricImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
+        electricAttribute = "Unknown";
+
+        iceImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
+        iceAttribute = "Unknown";
+
+        fireAttribute = "Unknown"; //this changes the state back to unknown. yes I know the wording doesnt make sense. I don't know either. :) 
+        fireImg.style.backgroundImage = "url('images/centeredunknown.crop.png')";
+        //fireSwitchCase();
+
+        //clears previous search content 
+        contentDiv.innerHTML = "";
+        //clears arrays for another search 
+        elementsType = [];
+        unknownArray = [];
+        weakArray = [];
+        resistsArray = [];
+        reflectsArray = [];
+        absorbsArray = [];
+        nullifiesArray = [];
     });
 });
 
@@ -459,8 +518,10 @@ function displayJson() {
 
                 // Sets the innerHTML of the section with dynamic data from the current item
                 section.innerHTML = `
-                        <h2>${item.name}</h2>
-                        <img src="${item.image}" style="width:100%;max-width:300px;">
+                        <div class="halfcircle"> 
+                        <h2 class="sectionhead">${item.name}</h2>
+                        </div>
+                        <img src="${item.image}" class="personacardimg">
                        
                     `;
 
@@ -468,11 +529,23 @@ function displayJson() {
                     // when clicked, keeps data in storage
                     localStorage.setItem("selectedItem", JSON.stringify(item));
                     // goes to details page in new tab :) 
-                   window.open("details.html", "_blank");
+                    window.open("details.html", "_blank");
                 });
 
                 //adds class to section to alternate colors of the bg    
                 section.classList.add(index % 2 === 0 ? "bg-light" : "bg-dark");
+
+                //event for scrolling in
+                document.addEventListener(
+                    "scrollEvent",
+                    () => {
+                        console.log("Scroll event handled once");
+                    },
+                    { once: true }
+                );
+
+                // Trigger the event
+                document.dispatchEvent(new Event("scrollEvent"));
 
                 // Appends the newly created section to the 'content' div
                 contentDiv.appendChild(section);
@@ -480,7 +553,7 @@ function displayJson() {
 
             if (filteredData.length === 0) {
                 // if nothing matches the arrays then this shows 
-                contentDiv.innerHTML = "<p>No personas match the criteria. :( </p>";
+                contentDiv.innerHTML = "<p class='nomatch'>No personas match the criteria. :( </p>";
             }
         })
 
@@ -488,6 +561,75 @@ function displayJson() {
             console.error("Error fetching or processing data:", error);
         });
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("scrollEvent", () => {
+        const observeSections = () => {
+            const sections = document.querySelectorAll("section");
+    
+            // Log the current sections for debugging
+            console.log(`Number of sections found: ${sections.length}`);
+    
+            if (sections.length === 0) {
+                console.error("No sections found in the DOM.");
+                return;
+            }
+    
+            // Initialize all sections to reset the "scroll-in" state
+            sections.forEach((section) => {
+                section.classList.remove("scroll-in");
+            });
+    
+            // IntersectionObserver for watching when sections are in view
+            const observer = new IntersectionObserver(
+                (entries, observer) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("scroll-in");
+                            observer.unobserve(entry.target); // Stop observing once visible
+                        }
+                    });
+                },
+                {
+                    threshold: 0.1, // Trigger when 10% of the section is visible
+                }
+            );
+    
+            // Observe each section
+            sections.forEach((section) => {
+                observer.observe(section);
+            });
+    
+            // Ensure the last section is visible
+            const lastSection = sections[sections.length - 1];
+            if (lastSection) {
+                const rect = lastSection.getBoundingClientRect();
+                if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+                    lastSection.classList.add("scroll-in");
+                }
+            }
+        };
+    
+        // Run initially to catch existing sections
+        observeSections();
+    
+        // Use MutationObserver to detect dynamically added sections
+        const observer = new MutationObserver(() => {
+            observeSections();
+        });
+    
+        observer.observe(document.body, { childList: true, subtree: true });
+    
+        console.log("MutationObserver is watching for new sections.");
+
+    });
+});
+
+
+
+
+
+
 
 
 

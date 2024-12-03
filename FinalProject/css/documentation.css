@@ -1,0 +1,157 @@
+@import url("https://db.onlinewebfonts.com/c/a1064a651347180bcb010c3673903bff?family=D");
+
+
+@font-face {
+    font-family: personabold;
+    src: url(../AktivGrotesk-Bold.ttf);
+}
+
+body{ 
+    font-family: "D", sans-serif;
+    font-size: 20px;
+    background-image: url(../images/bubblesgif.gif);
+    background-size: cover;
+    background-position: center top;  
+    background-attachment: fixed;
+    color: white;
+}
+
+h1{
+    font-family: personabold, sans-serif;
+    color: white;
+    text-shadow: #030a87 2px 5px 5px;
+    font-size: 100px;
+    text-wrap: nowrap;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-decoration: underline #00fff5;
+    font-size: 35px;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    text-decoration: underline #00fff5;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+p{
+    text-align: center;
+}
+
+.blue{
+    background-color: rgba(70, 33, 200, 0.8);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.together{
+    display: flex;
+}
+
+.descriptiontext{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 5px;
+}
+
+.reactionimg{
+    width: 108px;
+    height: 108px;
+}
+
+.left{
+    justify-items: left;
+}
+
+.right{
+  justify-items: right;
+}
+
+
+.navlink{
+    font-family: personabold, sans-serif;
+    color: white;
+    text-shadow: #030a87 2px 3px 3px;
+    font-size: 30px;
+    text-wrap: nowrap;
+    text-align: center;
+    text-decoration: none;
+   
+    margin-left: 20px;
+    padding: 5px;
+
+    box-shadow: inset 0 0 0 0 #00fff5;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+
+
+ .navlink:hover {
+    box-shadow: inset 100px 0px 0px #030a87;
+   /* color: #030a87; */ 
+    text-shadow: #00fff5 2px 3px 3px;
+}
+
+.doclink{
+    display: block;
+    color: #030a87;
+    text-align: center;
+    background-image: url(../images/tributtonwshadow.png);
+    background-size: cover;
+    width: 125px;
+    height: 59px;
+    padding-top: 35px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.doclink:hover{
+	transform: translateX(10px); 
+    cursor: pointer;
+}
+
+.doclinksec{
+    display: block;
+    color: #030a87;
+    text-align: center;
+    background-image: url(../images/tributtonwshadow.png);
+    background-size: cover;
+    width: 125px;
+    height: 59px;
+    padding-top: 35px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    text-wrap: nowrap;
+}
+
+.doclinksec:hover{
+	transform: translateX(10px); 
+    cursor: pointer;
+}
+
+footer{
+    font-size: 15px;
+    background-color: #030a87;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.footlink{
+    color: #00fff5;
+}

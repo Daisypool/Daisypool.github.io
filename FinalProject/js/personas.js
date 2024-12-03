@@ -494,7 +494,7 @@ function displayJson() {
     fetch("https://daisypool.github.io/FinalProject/js/persona3.json")
         .then((response) => response.json())
         .then((data) => {
-            // Gets a reference to the element with the id 'content' in the HTML document.
+            
             const contentDiv = document.getElementById("content");
 
 
@@ -511,12 +511,12 @@ function displayJson() {
             });
 
 
-            // Iterates over the filtered data and displays it
+            // goes over filtered data and shows it
             filteredData.forEach((item, index) => {
-                // Creates a new 'section' element
+                // Creates a new section element
                 const section = document.createElement("section");
 
-                // Sets the innerHTML of the section with dynamic data from the current item
+                // sets the section with data from json 
                 section.innerHTML = `
                         <div class="halfcircle"> 
                         <h2 class="sectionhead">${item.name}</h2>
@@ -526,7 +526,7 @@ function displayJson() {
                     `;
 
                 section.addEventListener("click", () => {
-                    // when clicked, keeps data in storage
+                    // keeps last clicked ditme in storage
                     localStorage.setItem("selectedItem", JSON.stringify(item));
                     // goes to details page in new tab :) 
                     window.open("details.html", "_blank");
@@ -547,7 +547,7 @@ function displayJson() {
                 // Trigger the event
                 document.dispatchEvent(new Event("scrollEvent"));
 
-                // Appends the newly created section to the 'content' div
+                // adds section to the content div
                 contentDiv.appendChild(section);
             });
 
@@ -567,7 +567,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const observeSections = () => {
             const sections = document.querySelectorAll("section");
     
-            // Log the current sections for debugging
+            // current number of sections log because stuff was broken 
             console.log(`Number of sections found: ${sections.length}`);
     
             if (sections.length === 0) {
@@ -575,32 +575,32 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
     
-            // Initialize all sections to reset the "scroll-in" state
+            // resets all sections
             sections.forEach((section) => {
                 section.classList.remove("scroll-in");
             });
     
-            // IntersectionObserver for watching when sections are in view
+            // checks when sections are in view 
             const observer = new IntersectionObserver(
                 (entries, observer) => {
                     entries.forEach((entry) => {
                         if (entry.isIntersecting) {
                             entry.target.classList.add("scroll-in");
-                            observer.unobserve(entry.target); // Stop observing once visible
+                            observer.unobserve(entry.target); // stop observing once visible
                         }
                     });
                 },
                 {
-                    threshold: 0.1, // Trigger when 10% of the section is visible
+                    threshold: 0.1, // trigger when 10% of the section is visible
                 }
             );
     
-            // Observe each section
+            // bbserve each section
             sections.forEach((section) => {
                 observer.observe(section);
             });
     
-            // Ensure the last section is visible
+            // makes sure last section is visible BECAUSE IT WAS BROKEN FOR LIKE 2 HOURS 
             const lastSection = sections[sections.length - 1];
             if (lastSection) {
                 const rect = lastSection.getBoundingClientRect();
@@ -610,17 +610,17 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         };
     
-        // Run initially to catch existing sections
+    
         observeSections();
     
-        // Use MutationObserver to detect dynamically added sections
+        
         const observer = new MutationObserver(() => {
             observeSections();
         });
     
         observer.observe(document.body, { childList: true, subtree: true });
     
-        console.log("MutationObserver is watching for new sections.");
+        
 
     });
 });

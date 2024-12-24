@@ -13,7 +13,7 @@ const arcanaImages = {
     "Hermit": 'images/Hermit.png',
     "Fortune": 'images/Fortune.png',
     "Strength": 'images/Strength.png',
-    "Hanged Man": 'images/Hangedman.png',
+    "Hanged": 'images/Hangedman.png',
     "Death": 'images/Death.png',
     "Temperance": 'images/Temperance.png',
     "Devil": 'images/Devil.png',
